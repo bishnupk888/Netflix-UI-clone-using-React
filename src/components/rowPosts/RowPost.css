@@ -1,0 +1,51 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+
+
+}
+.smallPosters{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+.youtubeTab {
+    position: relative;
+  }
+  
+  .closebutton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: #fff; /* Set background color as needed */
+    border: 1px solid #ccc; /* Set border styles as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    cursor: pointer;
+  }
+  
+  .closebutton:hover {
+    background-color: #ddd; /* Set hover background color as needed */
+  }
+.poster:hover{
+    transform: scale(1.1);
+}
+.smallPosters:hover{
+    transform: scale(1.1);
+}
